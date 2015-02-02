@@ -7,23 +7,27 @@ fi
 echo "Generating iPhone icons."
 sips -s format png -z 29 29 $1 --out Icon-Small.png
 sips -s format png -z 58 58 $1 --out Icon-Small@2x.png
+sips -s format png -z 87 87 $1 --out Icon-Small@3x.png
 
-sips -s format png -z 50 50 $1 --out Icon-Small-50.png
-sips -s format png -z 100 100 $1 --out Icon-Small-50@2x.png
+sips -s format png -z 80 80 $1 --out Icon-40@2x.png
+sips -s format png -z 120 120 $1 --out Icon-40@3x.png
 
+
+sips -s format png -z 60 60 $1 --out Icon-60.png
+sips -s format png -z 120 120 $1 --out Icon-60@2x.png
 
 sips -s format png -z 57 57 $1 --out Icon.png
 sips -s format png -z 114 114 $1 --out Icon@2x.png
 
-sips -s format png -z 72 72 $1 --out Icon-72.png
-sips -s format png -z 144 144 $1 --out Icon-72@2x.png
+# sips -s format png -z 72 72 $1 --out Icon-72.png
+# sips -s format png -z 144 144 $1 --out Icon-72@2x.png
 
 
-sips -s format png -z 76 76 $1 --out Icon-76.png
+# sips -s format png -z 76 76 $1 --out Icon-76.png
 
-sips -s format png -z 120 120 $1 --out Icon-120.png
+# sips -s format png -z 120 120 $1 --out Icon-120.png
 
-sips -s format png -z 152 152 $1 --out Icon-152.png
+# sips -s format png -z 152 152 $1 --out Icon-152.png
 
 
 
