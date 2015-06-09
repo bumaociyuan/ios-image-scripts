@@ -1,7 +1,13 @@
 ios-image-scripts
 =================
 
-Shell scripts to generate all required app icons and launch images on iPad and iPhone.
+
+#Usage
+```
+sh iphone-icon-generator.sh 1024-1024-icon.png
+
+```
+
 
 See
 
