@@ -15,6 +15,7 @@ sips -s format png -z 80 80 $1 --out $path/Icon-40@2x.png
 sips -s format png -z 120 120 $1 --out $path/Icon-40@3x.png
 
 
+sips -s format png -z 40 40 $1 --out $path/Icon-20@2x.png
 sips -s format png -z 60 60 $1 --out $path/Icon-60.png
 sips -s format png -z 120 120 $1 --out $path/Icon-60@2x.png
 sips -s format png -z 180 180 $1 --out $path/Icon-60@3x.png
